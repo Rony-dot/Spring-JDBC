@@ -1,6 +1,6 @@
-package com.amigoscode.movie;
+package com.rakibul.movie;
 
-import com.amigoscode.exception.NotFoundException;
+import com.rakibul.exception.NotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

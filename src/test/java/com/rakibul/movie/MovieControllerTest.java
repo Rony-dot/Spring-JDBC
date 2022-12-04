@@ -1,4 +1,4 @@
-package com.amigoscode.movie;
+package com.rakibul.movie;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.mockito.Mock;

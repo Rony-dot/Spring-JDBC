@@ -1,6 +1,6 @@
-package com.amigoscode.movie;
+package com.rakibul.movie;
 
-import com.amigoscode.actor.Actor;
+import com.rakibul.actor.Actor;
 
 import java.time.LocalDate;
 import java.util.List;

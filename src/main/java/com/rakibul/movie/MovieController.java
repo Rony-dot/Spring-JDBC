@@ -1,4 +1,4 @@
-package com.amigoscode.movie;
+package com.rakibul.movie;
 
 import org.springframework.web.bind.annotation.*;
 

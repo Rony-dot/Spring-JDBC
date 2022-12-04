@@ -2,10 +2,10 @@ app:
   datasource:
     main:
       driver-class-name: org.postgresql.Driver
-      jdbc-url: jdbc:postgresql://localhost:5432/amigoscode
-      password: 'password'
+      jdbc-url: jdbc:postgresql://localhost:5432/spring-jdbc
+      password: 'postgres_pass'
       pool-size: 30
-      username: amigoscode
+      username: postgres_user
 
 server:
   error:

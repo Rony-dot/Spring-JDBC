@@ -46,8 +46,10 @@ public class MovieDataAccessService implements MovieDao {
 
     @Override
     public int deleteMovie(int id) {
-        throw new UnsupportedOperationException("not implemented");
-
+        var sql = """
+                Delete from movie where id = ?;
+                """;
+        return jdbcTemplate.update(sql, id);
     }
 
     @Override
